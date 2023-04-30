@@ -20,7 +20,7 @@ export const Footer = () => {
             <p> UP (India)</p>
           </div>
           <div className="col">
-            <h4>Keep Connected</h4>
+            <h4>Stay Connected</h4>
             <div className="line my-4" />
               <div className="icons">
                 <div className="d-flex">

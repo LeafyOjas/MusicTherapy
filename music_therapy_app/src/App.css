@@ -108,3 +108,37 @@
 .img:hover{
   cursor: pointer;
 }
+
+.lined{
+  position: absolute;
+  width:40px;
+  height:70%;
+  background-color: aqua;
+  border-radius: 40px;
+  z-index:-1;
+  opacity: 0.5;
+  transform:rotate(-50deg)
+}
+
+.l1{
+  top:20%;
+  left:60%;
+}
+
+.l2{
+  top:40%;
+  left:55%;
+  height:50%;
+  background-color: #282c34;
+}
+.l3{
+  top:12%;
+  left:65%;
+  background-color: #e97a34;
+}
+.l4{
+  top:8%;
+  left:70%;
+  height:50%;
+  background-color: #e93a34;
+}

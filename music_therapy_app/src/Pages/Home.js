@@ -24,6 +24,10 @@ export const Home = () => {
             helping them delve deeper into their consciousness to process a wide
             range of emotions.
           </p>
+          <div className="lined l1"></div>
+          <div className="lined l2"></div>
+          <div className="lined l3"></div>
+          <div className="lined l4"></div>
         </div>
       </div>
 
