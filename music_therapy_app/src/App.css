@@ -1,0 +1,110 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container-footer{
+  background-color: #e97a34;
+  position: absolute;
+  width:99vw;
+  color:rgb(252, 247, 247);
+  opacity:0.8;
+  overflow-x: hidden;
+}
+.line{
+
+  height: 1px;
+  width: 70%;
+  background-color: white;
+  opacity: 0.5;
+}
+.icon{
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+}
+.icon:hover{
+  border: 2px solid rgb(255, 255, 255);
+}
+.nav{
+  height: 50px;
+  width: 99vw;
+  background-color: #e97a34;
+  border-bottom: 5px solid black;
+  overflow-x: hidden;
+}
+.navLink{
+  color: white;
+  text-decoration: none;
+}
+
+.music-img{
+  width:300px;
+  height:300px;
+  border-radius: 50%;
+  border: 1px solid orangered;
+  margin-bottom: 20px;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top:40px;
+}
+
+.music-circle{
+  background-color: rgb(177, 21, 63);
+  position: absolute;
+  top:12%;
+  left:8%;
+  z-index:-1;
+}
+
+.music-circle-2{
+  background-color: orangered;
+  opacity: 0.8;
+  position: absolute;
+  top:15%;
+  left:2%;
+  z-index: -1;
+}
+
+.music-text{
+  
+  text-align: center;
+}
+.blog-circle{
+  background-color: #e97a34;
+  width:250px;
+  height:250px;
+  border-radius: 50%;
+}
+
+.img{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+}
+
+.img:hover{
+  cursor: pointer;
+}
